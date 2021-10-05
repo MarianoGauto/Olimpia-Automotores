@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.container-fluid{
+	&.width100{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+.logo{
+	.navbar
+	&.navbar-light
+	&.backWhite{
+		background-color: white;
+	}
+}	
+.menu{
+	background-color: #404094;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	justify-content: flex-end;
+	font-size: 1.5em;
+
+}
+.menu_blanco{
+	color: white;
+}	
+.row{
+	&.destacados{
+		padding: 2em;
+	}
+	&.margin{
+		margin-top: 30px;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+		.texto{
+			font-family: 'Oswald', sans-serif;
+			text-align: center;
+			font-size: 1rem;
+			.bold{
+				color: #404094;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 27px;
+				text-align: center;
+				display: block;
+			}
+		}	
+	}
+}
+.width100{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 4em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+.bold{
+	color: #404094;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 27px;
+	text-align: center;
+	display: block;
+	margin-top: 1em;
+}
+.bold2{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-align: center;
+	display: block;
+	text-decoration: underline;
+}	
+.texto{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 1rem;
+}
+h2{
+	color: #404094;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 900;
+	text-decoration: underline;
+	text-align: center;
+	padding-left: 0px;
+	margin-top: 1em;
+	margin-bottom: 0em;
+}
+p{
+	color: white;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+li{
+	list-style: none;
+}
+h5{
+	font-size: 4em;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+.margin{
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+.suscribe{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 1rem;
+	background-color: #404094;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	justify-content: flex-end;
+	font-size: 1.5em;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	.suscribe__bold2{
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		text-align: center;
+		display: block;
+		text-decoration: underline;
+	}
+	.suscribe__texto{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 1rem;
+	}	
+}
+.footer{
+	background-color: black;
+	display: flex;
+	color: white;
+	align-content: center;
+	align-items: center;
+	font-size: 3em;
+	height: 2em;
+	margin-right: 0px;
+	margin-left: 0px;
+	.col-6{
+		&.col-md-6{
+			.texto{
+				font-family: 'Oswald', sans-serif;
+				text-align: center;
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+.destacados1{
+	padding: 0px;
+}
+.titulo{
+	display: flex;
+	align-items: center;
+	color: white;
+	background-image: url(../imagenes/rueda.png);
+	background-position: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 4em;
+	width: 100%;
+	text-align: center;
+	height: 3em;
+	justify-content: center;
+}
+.margin4{
+	margin: 4em;
+}
+.imgScale:hover{
+	transform: scale(1.1);
+}
