@@ -26,6 +26,14 @@
   color: white;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .row.destacados {
   padding: 2em;
 }
@@ -235,5 +243,10 @@ h5 {
 .imgScale:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.textoBlack {
+  color: black;
+  font-size: 1em;
 }
 /*# sourceMappingURL=estilos.css.map */

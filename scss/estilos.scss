@@ -28,6 +28,8 @@
 	color: white;
 }	
 .row{
+	display: flex;
+	justify-content: space-around;
 	&.destacados{
 		padding: 2em;
 	}
@@ -200,4 +202,8 @@ h5{
 }
 .imgScale:hover{
 	transform: scale(1.1);
+}
+.textoBlack{
+	color: black;
+	font-size: 1em;
 }
