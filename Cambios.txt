@@ -1,6 +1,0 @@
-1- Agregue Keywords a todos los html.
-2- Ordene los "h", tenia mi titulo con h5 y un h1 en un lugar random.
-3- Le cambie los divs del head por "head". Lo puse para el head de cada página, no para el header del sitio. 
-4- Cambie los títulos de cada html, antes decía solo el nombre de la empresa.
-5- Todos mis h1 o h2 tienen nombres buscables por el usuario, "vehículo, auto, automóvil, 0km, usado, etc".
-6- Mis h5 son titulos de los autos, por ej "mercedes benz x". Por si el usuario busca un modelo en particular.

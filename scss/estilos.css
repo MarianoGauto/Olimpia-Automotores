@@ -71,6 +71,7 @@ h1 {
   font-size: 4em;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
+  margin-bottom: 0px;
 }
 
 .bold {
@@ -111,7 +112,7 @@ h2 {
   text-align: center;
   padding-left: 0px;
   margin-top: 1em;
-  margin-bottom: 0em;
+  margin-bottom: 0.5em;
 }
 
 p {
@@ -155,8 +156,9 @@ h5 {
   margin-bottom: 20px;
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   background-color: #404094;
+  background-image: url(../imagenes/patronAzul.png);
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -164,7 +166,6 @@ h5 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  font-size: 1.5em;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -185,6 +186,7 @@ h5 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   font-size: 1rem;
+  width: 60%;
 }
 
 .footer {
@@ -222,12 +224,12 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  background-image: url(../imagenes/rueda.png);
-  background-position: center;
+  background-image: url(../imagenes/patronNegro.jpg);
+  background-position: top;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 3em;
   width: 100%;
   text-align: center;
   height: 3em;
@@ -245,8 +247,47 @@ h5 {
           transform: scale(1.1);
 }
 
+.width40 {
+  width: 40%;
+}
+
 .textoBlack {
-  color: black;
+  font-family: 'Oswald', sans-serif;
   font-size: 1em;
+  color: black;
+}
+
+.bordeDashed {
+  border: 4px dashed #404094;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.card {
+  border: 1px solid #404094;
+  border-bottom: 3px groove #404094;
+  border-radius: 0px 0px 40px 40px;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #404094;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+.volver {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.height80 {
+  height: 20%;
 }
 /*# sourceMappingURL=estilos.css.map */
