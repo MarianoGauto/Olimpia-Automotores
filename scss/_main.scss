@@ -1,0 +1,207 @@
+.container-fluid{
+	&.width100{
+		width: $width100;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+.logo{
+	.navbar
+	&.navbar-light
+	&.backWhite{
+		background-color: white;
+	}
+}	
+.menu{
+	background-color: $maincolor;
+	@include textos(1.5em, 700, white);
+	text-transform: uppercase;
+	justify-content: flex-end;
+}
+.menu_blanco{
+	color: white;
+}	
+.row{
+	display: flex;
+	justify-content: space-around;
+	&.destacados{
+		padding: 2em;
+	}
+	&.margin{
+		margin-top: 30px;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+		.texto{
+			font-family: $mainfont;
+			text-align: center;
+			font-size: 1rem;
+			.bold{
+				@include textos(27px, 700, $maincolor);
+				text-transform: uppercase;
+				text-align: center;
+				display: block;
+			}
+		}	
+	}
+}
+.width100{
+	width: $width100;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 4em;
+	font-family: $mainfont;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+
+.bold{
+	@include textos(27px, 700, $maincolor);
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	margin-top: 1em;
+}
+.bold2{
+	@include textos(1.5em, 700, white);
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	text-decoration: underline;
+}	
+.texto{
+	font-family: $mainfont;
+	text-align: center;
+	font-size: 1rem;
+}
+h2{
+	@include textos(3em, 900, $maincolor);
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	padding-left: 0px;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+p{
+	@include textos(1.5, 500, white);
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+h5{
+	font-size: 4em;
+	font-family: $mainfont;
+	text-transform: uppercase;
+}
+.margin{
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+.suscribe{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	@include textos(1.3rem, 700, white);
+	background-color: $maincolor;
+	background-image: url(../imagenes/patronAzul.png);
+	text-transform: uppercase;
+	justify-content: flex-end;
+	width: $width100;
+	margin: 0px;
+	padding: 0px;
+	.suscribe__bold2{
+		@include textos(1.5em, 700, white);
+		text-transform: uppercase;
+		text-align: center;
+		display: block;
+		text-decoration: underline;
+	}
+	.suscribe__texto{
+	font-family: $mainfont;
+	text-align: center;
+	font-size: 1rem;
+	width: 60%;
+	}	
+}
+.footer{
+	background-color: black;
+	display: flex;
+	color: white;
+	align-content: center;
+	align-items: center;
+	font-size: 3em;
+	height: 2em;
+	margin-right: 0px;
+	margin-left: 0px;
+	.col-6{
+		&.col-md-6{
+			.texto{
+				font-family: $mainfont;
+				text-align: center;
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+.destacados1{
+	padding: 0px;
+}
+.titulo{
+	display: flex;
+	align-items: center;
+	background-image: url(../imagenes/patronNegro.jpg);
+	background-position: top;
+	@include textos(3em, 700, white);
+	text-transform: uppercase;
+	width: $width100;
+	text-align: center;
+	height: 3em;
+	justify-content: center;
+}
+.margin4{
+	margin: 4em;
+}
+.imgScale:hover{
+	transform: scale(1.1);
+}
+.width40{
+	width: 40%;
+}
+.textoBlack{
+	@include textos(1em, 400, black);
+}
+.bordeDashed{
+	border: 4px dashed $maincolor;
+	border-radius: 0px 0px 40px 40px;
+}
+.card{
+	border: 1px solid $maincolor;
+	border-bottom: 3px groove $maincolor;
+	border-radius: 0px 0px 40px 40px;
+	margin-bottom: 2rem;
+}
+.btn{
+	background-color: $maincolor;
+	border: 1px solid white;
+	margin-bottom: 1rem;
+}
+.volver{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+.height80{
+	height: 20%;
+}
